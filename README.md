@@ -1,6 +1,6 @@
 adds keybinds to select modded actionbar slots
 
-![bindings](https://github.com/bongus-jive/actionbar-binds/assets/27874300/ce387e4c-053c-416e-b074-bf8644ba2aa7)
+![bindigns](https://github.com/bongus-jive/actionbar-binds/assets/27874300/f1e054c2-143e-4178-9ba4-13b6e8034a2c)
 
 requires [StarExtensions](https://github.com/StarExtensions/StarExtensions)
 
