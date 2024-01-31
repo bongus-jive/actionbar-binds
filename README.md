@@ -5,3 +5,6 @@ adds keybinds to select modded actionbar slots
 requires [StarExtensions](https://github.com/StarExtensions/StarExtensions)
 
 also requires a mod that actually adds more actionbar slots
+
+
+steam workshop page: https://steamcommunity.com/sharedfiles/filedetails/?id=2962464896
