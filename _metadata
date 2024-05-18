@@ -1,10 +1,11 @@
 {
   "author" : "pat man",
-  "description" : "adds keybinds for up to twelve actionbar slots\nchange them with /binds if you want to .\nif you only have like 8 or 10 slots you should unbind the extra ones ! \n\n\nthat is so cool\n\n[url=https://github.com/StarExtensions/StarExtensions][b]requieres StarExtensions[/b]\n[img]https://media.discordapp.net/attachments/325351648849428480/1062640052338962432/logo.png[/img]\n[/url]\n\n\n\ngithub: https://github.com/bongus-jive/actionbar-binds\n\n[url=https://discord.gg/GdsQSgV][img]https://i.imgur.com/wXjYMqP.gif[/img][/url]\n[url=https://www.patreon.com/pathiccstar][img]https://i.imgur.com/uyG8oTa.gif[/img][/url]\n[url=https://link.clashofclans.com/en?action=OpenClanProfile&tag=2QCU2R9GP][img]https://i.imgur.com/xVfcRRH.gif[/img][/url]\n\n[url=https://starbound-servers.net/server/7996/][img]https://i.imgur.com/EapniF9.gif[/img] Vote for scungus!!! [img]https://i.imgur.com/EapniF9.gif[/img][/url]",
+  "description" : "adds keybinds for up to 20 actionbar slots\nthis does NOT add more slots by itself you get to find another mod to do that\n\nchange them with /binds if you want to .\nif you only have like 8 or 10 slots you should unbind the extra ones ! ",
   "friendlyName" : "More Action Bar Binds [StarExtensions]",
   "link" : "steam://url/CommunityFilePage/2962464896",
   "name" : "pat_actionbarbinds",
   "steamContentId" : "2962464896",
+  "steamDescription" : "adds keybinds for up to 20 actionbar slots\nthis does NOT add more slots by itself you get to find another mod to do that\n\nchange them with /binds if you want to .\nif you only have like 8 or 10 slots you should unbind the extra ones ! \n\n\nthat is so cool\n\n[url=https://github.com/StarExtensions/StarExtensions][b]requieres StarExtensions[/b]\n[img]https://files.catbox.moe/qlqnge.png[/img]\n[/url]\n\n\n[img]https://i.imgur.com/wXjYMqP.gif[/img]https://discord.gg/GdsQSgV\n[img]https://i.imgur.com/uyG8oTa.gif[/img]https://www.patreon.com/pathiccstar\n[img]https://i.imgur.com/xVfcRRH.gif[/img]https://ko-fi.com/patmanf\n[img]https://i.imgur.com/jJAj6jF.gif[/img]https://github.com/bongus-jive/actionbar-binds\n\n[url=https://starbound-servers.net/server/7996/][img]https://i.imgur.com/EapniF9.gif[/img] Vote for scungus!!! [img]https://i.imgur.com/EapniF9.gif[/img][/url]",
   "tags" : "User Interface",
-  "version" : "yeses"
+  "version" : "v1.1"
 }
