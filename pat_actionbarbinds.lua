@@ -4,6 +4,7 @@ function init()
   if not starExtensions and script.updateDt() ~= 0 then
     script.setUpdateDelta(0)
     sb.logWarn("'Action Bar Binds' requires StarExtensions - https://github.com/StarExtensions/StarExtensions/releases")
+    return
   end
 
   lastGroup = player.actionBarGroup()
