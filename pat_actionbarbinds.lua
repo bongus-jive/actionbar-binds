@@ -1,4 +1,4 @@
-local lastGroup, maxGroups
+local lastGroup, maxGroups, maxIndexes
 
 function init()
   if not starExtensions and script.updateDt() ~= 0 then
@@ -9,6 +9,7 @@ function init()
 
   lastGroup = player.actionBarGroup()
   maxGroups = root.assetJson("/player.config:inventory.customBarGroups")
+  maxIndexes = math.min(20, root.assetJson("/player.config:inventory.customBarIndexes"))
 end
 
 function update()
@@ -18,11 +19,12 @@ function update()
   end
 
   lastGroup = player.actionBarGroup()
-  
-  for i = 7, 12 do
+
+  if maxIndexes <= 6 then return end
+
+  for i = 7, maxIndexes do
     if input.bindDown("pat_actionbarbinds", tostring(i)) then
       player.setSelectedActionBarSlot(i)
-      break
     end
   end
 end
