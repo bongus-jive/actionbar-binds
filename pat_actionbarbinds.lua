@@ -1,4 +1,4 @@
-local lastGroup
+local lastGroup, maxGroups
 
 function init()
   if not starExtensions and script.updateDt() ~= 0 then
@@ -8,11 +8,13 @@ function init()
   end
 
   lastGroup = player.actionBarGroup()
+  maxGroups = root.assetJson("/player.config:inventory.customBarGroups")
 end
 
 function update()
   if input.bindDown("pat_actionbarbinds", "prev") then
-    player.setActionBarGroup(lastGroup - 1)
+    local newGroup = ((lastGroup - 2) % maxGroups) + 1
+    player.setActionBarGroup(newGroup)
   end
 
   lastGroup = player.actionBarGroup()
