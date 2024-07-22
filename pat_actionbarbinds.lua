@@ -1,9 +1,9 @@
 local lastGroup, maxGroups, maxIndexes
 
 function init()
-  if not starExtensions and script.updateDt() ~= 0 then
+  if not input then
     script.setUpdateDelta(0)
-    sb.logWarn("'Action Bar Binds' requires StarExtensions - https://github.com/StarExtensions/StarExtensions/releases")
+    sb.logWarn("'Action Bar Binds' requires StarExtensions or OpenStarbound")
     return
   end
 
